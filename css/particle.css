@@ -1,0 +1,112 @@
+
+/*-----------------------------------------------------------------------------
+ * Reset Defaults
+ ----------------------------------------------------------------------------*/
+    
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, li, ol, p, ul, img {
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-size: 1em;
+}
+
+body {
+  font-size: 10px;
+  font-family: "Trebuchet MS";
+}
+    
+#particle_container {
+  width: 700px;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+#controls {
+  position: absolute;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  float: left;
+  width: 250px;
+  height: 460px;
+  background: url('http://scurker.com/projects/particles/w35.png');
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+#controls .half {
+  width: 50%;
+  float: left;
+}
+
+#controls .half:first-child label {
+  margin-right: 3px;
+}
+
+#controls .half:last-child label {
+  margin-left: 3px;
+}
+
+#controls input {
+  border: 0;
+  background: none;
+  color: #fff;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#controls label {
+  background: url('http://scurker.com/projects/particles/w15.png');
+  padding: 3px 6px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#controls ul {
+  list-style-type: none;
+}
+
+#controls ul li {
+  clear: both;
+}
+
+.ui-corner-all {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+.ui-state-default {
+  outline: none;
+}
+
+.ui-slider {
+  position: relative;
+  cursor: default;
+  height: 6px;
+  margin: 8px 5px;
+  border: 1px solid #eee;
+  background: #444;
+}
+
+.ui-slider-range {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  height: 100%;
+  background: #49c;
+}
+
+.ui-slider-handle {
+  position: absolute;
+  cursor: default;
+  top: -2px;
+  margin-left: -5px;
+  height: 8px;
+  width: 8px;
+  border: 1px solid #fff; 
+  background: #ddd;
+}    
